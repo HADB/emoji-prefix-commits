@@ -1,0 +1,21 @@
+{
+  "name": "@emoji-prefix-commits/changelog-preset",
+  "version": "0.0.0",
+  "description": "Changelog preset for emoji-prefix-commits",
+  "author": "Bean <bean@yuanfen.net>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/changelog-preset.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^7.0.2"
+  }
+}

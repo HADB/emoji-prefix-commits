@@ -1,0 +1,21 @@
+{
+  "name": "@emoji-prefix-commits/commitlint-preset",
+  "version": "0.0.0",
+  "description": "Commitlint preset for emoji-prefix-commits",
+  "author": "Bean <dengbin@bilibili.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/commitlint-preset.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.8.0"
+  }
+}
