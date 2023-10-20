@@ -6,7 +6,7 @@
   "homepage": "",
   "license": "ISC",
   "type": "module",
-  "exports": "./lib/commitlint-preset.js",
+  "main": "lib/commitlint-preset.js",
   "directories": {
     "lib": "lib"
   },
