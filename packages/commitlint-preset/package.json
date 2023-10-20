@@ -5,6 +5,7 @@
   "author": "Bean <bean@yuanfen.net>",
   "homepage": "",
   "license": "ISC",
+  "main": "index.js",
   "files": [
     "index.js"
   ],

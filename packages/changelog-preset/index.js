@@ -1,6 +1,6 @@
-import createPrest from 'conventional-changelog-conventionalcommits'
+const createPrest = require('conventional-changelog-conventionalcommits')
 
-export default async function createPreset(config) {
+module.exports = async function createPreset(config) {
   const preset = await createPrest(config)
   preset.parserOpts.headerPattern = /^(.*?)(?:\(([\w$.\-*/ ]*)\))?: (.*)$/
   return preset
