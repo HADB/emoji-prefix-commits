@@ -28,7 +28,7 @@ function createConventionalRecommendedBumpOpts(config, parserOpts) {
         if (commit.notes.length > 0) {
           breakings += commit.notes.length
           level = 0
-        } else if (commit.type === 'feat' || commit.type === 'feature') {
+        } else if (commit.type === '✨feat' || commit.type === 'feat') {
           features += 1
           if (level === 2) {
             level = 1
@@ -54,6 +54,6 @@ function createConventionalRecommendedBumpOpts(config, parserOpts) {
 module.exports = async function createPreset(config) {
   const preset = await createPrest(config)
   preset.parserOpts.headerPattern = /^(.*?)(?:\(([\w$.\-*/ ]*)\))?: (.*)$/
-  preset.recommendedBumpOpts = createConventionalRecommendedBumpOpts(config, preset.parserOptspreset.parserOpts)
+  preset.recommendedBumpOpts = createConventionalRecommendedBumpOpts(config, preset.parserOpts)
   return preset
 }
