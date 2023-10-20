@@ -1,6 +1,6 @@
 {
   "name": "@emoji-prefix-commits/commitlint-preset",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Commitlint preset for emoji-prefix-commits",
   "author": "Bean <dengbin@bilibili.com>",
   "homepage": "",
