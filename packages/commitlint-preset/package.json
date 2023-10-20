@@ -17,6 +17,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^17.8.0"
+    "@commitlint/config-conventional": "^17.8.0",
+    "@emoji-prefix-commits/changelog-preset": "latest"
   }
 }
