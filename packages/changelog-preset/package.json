@@ -5,13 +5,9 @@
   "author": "Bean <bean@yuanfen.net>",
   "homepage": "",
   "license": "ISC",
-  "type": "module",
-  "exports": "./lib/changelog-preset.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "exports": "./index.js",
   "files": [
-    "lib"
+    "index.js"
   ],
   "publishConfig": {
     "access": "public",
