@@ -5,7 +5,6 @@
   "author": "Bean <dengbin@bilibili.com>",
   "homepage": "",
   "license": "ISC",
-  "type": "module",
   "main": "lib/commitlint-preset.js",
   "directories": {
     "lib": "lib"
