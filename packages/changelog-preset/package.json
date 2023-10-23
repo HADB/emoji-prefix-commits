@@ -7,13 +7,23 @@
   "license": "ISC",
   "main": "index.js",
   "files": [
-    "index.js"
+    "utils.js",
+    "conventionalChangelog.js",
+    "conventionalRecommendedBump.js",
+    "index.js",
+    "parserOpts.js",
+    "writerOpts.js",
+    "templates",
+    "constants.js"
   ],
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "compare-func": "^2.0.0"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "dependencies": {
-    "conventional-changelog-conventionalcommits": "^7.0.2"
   }
 }
